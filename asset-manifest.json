@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/todo-practice/static/css/main.78bf300b.chunk.css",
+    "main.js": "/todo-practice/static/js/main.74c0ee0c.chunk.js",
+    "main.js.map": "/todo-practice/static/js/main.74c0ee0c.chunk.js.map",
+    "runtime-main.js": "/todo-practice/static/js/runtime-main.42d7955a.js",
+    "runtime-main.js.map": "/todo-practice/static/js/runtime-main.42d7955a.js.map",
+    "static/js/2.49da9d05.chunk.js": "/todo-practice/static/js/2.49da9d05.chunk.js",
+    "static/js/2.49da9d05.chunk.js.map": "/todo-practice/static/js/2.49da9d05.chunk.js.map",
+    "index.html": "/todo-practice/index.html",
+    "static/css/main.78bf300b.chunk.css.map": "/todo-practice/static/css/main.78bf300b.chunk.css.map",
+    "static/js/2.49da9d05.chunk.js.LICENSE.txt": "/todo-practice/static/js/2.49da9d05.chunk.js.LICENSE.txt",
+    "static/media/nanologo.cd9cadc5.png": "/todo-practice/static/media/nanologo.cd9cadc5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42d7955a.js",
+    "static/js/2.49da9d05.chunk.js",
+    "static/css/main.78bf300b.chunk.css",
+    "static/js/main.74c0ee0c.chunk.js"
+  ]
+}
