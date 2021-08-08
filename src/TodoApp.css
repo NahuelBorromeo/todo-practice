@@ -1,0 +1,80 @@
+/* Globals */
+html {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/* UTILITIES */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.btn {
+    background-color: #f3f3f3;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px; 
+}
+
+.todo__input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #f3f3f3;
+}
+
+.todo__item {
+    height: 40px;
+    display: grid;
+    grid-template-columns: 30px calc(100% - 80px) 80px;
+    align-items: center;
+}
+
+.todo__item > span {
+    padding-right: 10px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 690px) {
+    .todo__container {
+        grid-template-columns: 1fr;
+    }
+}
